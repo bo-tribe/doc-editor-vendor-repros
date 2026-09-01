@@ -1,0 +1,14 @@
+{
+  "expected": "A valid large DOCX opens, or a typed resource-limit error identifies the exceeded limit.",
+  "actual": {
+    "name": "DocxEditorError",
+    "code": "InvalidArgument",
+    "message": "the argument is not one this API accepts. (createServer)"
+  },
+  "observed": {
+    "sourceBytes": 1578590,
+    "paragraphs": 101322,
+    "elapsedMs": 429.4
+  },
+  "defectReproduced": true
+}

@@ -1,0 +1,18 @@
+{
+  "expected": "Persisted review items render when a fresh peer joins a restored Yjs room.",
+  "actual": "The restored tracked change is present in DOCX but the review rail stays empty until another review mutation.",
+  "observed": {
+    "liveCardsBeforeRestart": 2,
+    "trackedMarkerPresent": true,
+    "trackedInsertions": 1,
+    "cardsBeforeTrigger": 0,
+    "cardsAfterTrigger": 4,
+    "summariesAfterTrigger": [
+      "AddedTOTAL LIABILITY",
+      "Deletedaggregate liability",
+      "AddedFRAUD",
+      "Deletedfraud or fraudulent misrepresentation"
+    ]
+  },
+  "defectReproduced": true
+}

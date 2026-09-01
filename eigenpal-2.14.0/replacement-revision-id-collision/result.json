@@ -1,0 +1,26 @@
+{
+  "expected": "A tracked replacement uses distinct unique w:id values for its insertion and deletion, matching Word-authored replacement output.",
+  "actual": "The replacement insertion and deletion share one w:id.",
+  "revisions": [
+    {
+      "kind": "ins",
+      "id": "0",
+      "text": "Recipient"
+    },
+    {
+      "kind": "del",
+      "id": "0",
+      "text": "Receiving Party"
+    }
+  ],
+  "revisionIdCollisions": [
+    {
+      "id": "0",
+      "owners": [
+        "ins",
+        "del"
+      ]
+    }
+  ],
+  "defectReproduced": true
+}

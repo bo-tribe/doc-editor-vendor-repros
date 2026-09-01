@@ -1,0 +1,23 @@
+{
+  "name": "eigenpal-2-14-replacement-revision-id-collision",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node run.mjs && python3 validate.py"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@docx-editor.dev/core": "2.14.0",
+    "@docx-editor.dev/editor-api": "2.14.0",
+    "@docx-editor.dev/i18n": "2.14.0",
+    "@docx-editor.dev/pro": "2.14.0",
+    "@docx-editor.dev/react": "2.14.0",
+    "playwright-core": "1.62.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "vite": "8.2.1"
+  }
+}

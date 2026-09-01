@@ -1,0 +1,29 @@
+{
+  "expected": "Updating the React author prop changes attribution without remounting the document.",
+  "actual": "The second replacement retained the mount-time author.",
+  "observed": {
+    "revisions": [
+      {
+        "kind": "ins",
+        "author": "Initial Author",
+        "text": "total liability"
+      },
+      {
+        "kind": "del",
+        "author": "Initial Author",
+        "text": "aggregate liability"
+      },
+      {
+        "kind": "ins",
+        "author": "Initial Author",
+        "text": "fraud"
+      },
+      {
+        "kind": "del",
+        "author": "Initial Author",
+        "text": "fraud or fraudulent misrepresentation"
+      }
+    ]
+  },
+  "defectReproduced": true
+}

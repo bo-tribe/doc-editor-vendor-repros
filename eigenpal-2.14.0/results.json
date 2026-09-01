@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "candidate": {
+    "version": "2.14.0",
+    "gitHead": "5d1db60fd7a97c54a0ecf448b72635e449b3390a",
+    "publishedAt": "2026-09-01T07:08:01.032Z"
+  },
+  "runtime": {
+    "node": "v24.18.0",
+    "npm": "11.16.0",
+    "chrome": "152.0.7977.65",
+    "os": "macOS 26.6.2 arm64"
+  },
+  "summary": {
+    "tested": 6,
+    "standaloneRuns": 8,
+    "reproduced": 6
+  },
+  "results": [
+    {
+      "id": "replacement-revision-id-collision",
+      "status": "reproduced",
+      "result": "Replacement w:ins and w:del both use w:id=0."
+    },
+    {
+      "id": "suggesting-without-author",
+      "status": "reproduced",
+      "result": "Authorless suggesting ignores typing; the authored control succeeds; no useful diagnostic is emitted."
+    },
+    {
+      "id": "large-document-invalid-argument",
+      "status": "reproduced",
+      "result": "A valid 1,578,590-byte, 101,322-paragraph DOCX is rejected as InvalidArgument."
+    },
+    {
+      "id": "field-result-not-searchable",
+      "status": "reproduced",
+      "result": "Visible OOXML field text is present but Body.search returns zero matches."
+    },
+    {
+      "id": "author-prop-update",
+      "status": "reproduced",
+      "result": "Rerendering DocxEditor.Root with author=Updated Author leaves revisions attributed to Initial Author."
+    },
+    {
+      "id": "review-items-hidden-after-yjs-restore",
+      "status": "reproduced",
+      "result": "In 3/3 runs, a fresh peer's saved DOCX contains the restored tracked change, but DocxEditorReview renders zero cards until a new review mutation publishes all four cards."
+    }
+  ]
+}

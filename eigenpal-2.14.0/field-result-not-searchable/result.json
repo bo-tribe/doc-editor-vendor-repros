@@ -1,0 +1,10 @@
+{
+  "expected": "Body.search finds the visible field result after the field separator.",
+  "actual": "0 public search matches.",
+  "observed": {
+    "quote": "1 January 2030",
+    "physicallyPresent": true,
+    "searchMatches": 0
+  },
+  "defectReproduced": true
+}

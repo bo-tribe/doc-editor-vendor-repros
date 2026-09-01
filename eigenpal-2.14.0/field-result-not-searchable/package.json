@@ -1,0 +1,18 @@
+{
+  "name": "eigenpal-2-14-field-result-not-searchable",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node run.mjs"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@docx-editor.dev/core": "2.14.0",
+    "@docx-editor.dev/editor-api": "2.14.0",
+    "@docx-editor.dev/i18n": "2.14.0",
+    "jszip": "3.10.1"
+  }
+}
